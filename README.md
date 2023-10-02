@@ -35,3 +35,7 @@ Call the CalcOfficeWork.exe and pass seven arguments.
 e.g. 
 >'CalcOfficeWork.exe 2023 9 0 33,33 40 0 0
 "Calculate and show the amount of hours I still have to work in September 2023 with 3 days of vacation (employed in The Länd) after 8h in the office.)
+
+
+How to build self-contained .exe application for windows x64 bit: 
+dotnet publish -c Release -r win-x64 --self-contained true
